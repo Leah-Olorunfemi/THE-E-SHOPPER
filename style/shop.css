@@ -29,3 +29,17 @@ h1 {
 .store {
   background-color: var(--branding-color);
 }
+
+.hero-bag:hover {
+  cursor: pointer;
+  transform: translateY(-50px);
+  /* transform: translateX(50px); */
+  transition: all 200ms all;
+}
+
+@media (max-width: 768px) {
+  .homepage-images {
+    flex-direction: column;
+    size: 10px;
+  }
+}
