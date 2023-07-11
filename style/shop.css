@@ -1,0 +1,19 @@
+:root {
+  --branding-color: #2a9d8f;
+}
+
+.bg-navbar {
+  background-color: #03045e;
+}
+.navbar-brand,
+.navbar-nav a {
+  color: white;
+}
+
+.navbar-nav a:hover {
+  color: #198754;
+}
+
+.store {
+  background-color: var(--branding-color);
+}
